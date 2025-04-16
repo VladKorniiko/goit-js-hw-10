@@ -1,18 +1,18 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
 @import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+* {
+  font-family: 'Montserrat';
+}
+
+.task-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.task-links a {
+  color: blue;
+  text-decoration: underline;
+}
